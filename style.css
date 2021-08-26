@@ -1,4 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
 h1{
-    color: brown;
+    font-size: 50px;
+}
+.orange-name{
+    color: salmon;
+}
+section{
+    display: flex;
 
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 85%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    color: snow;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.section1-background{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
